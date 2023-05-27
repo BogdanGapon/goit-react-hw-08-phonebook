@@ -1,0 +1,19 @@
+.contactWrapper {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+  color: #030303;
+  font-size: 36px;
+  letter-spacing: 0.5px;
+}
+
+.titleContacts {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}

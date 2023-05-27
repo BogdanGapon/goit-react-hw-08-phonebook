@@ -1,0 +1,31 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.list__item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 22px;
+}
+
+.btn {
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.svg_cross {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  fill: rgb(236, 36, 36);
+  transition: fill 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.svg_cross:hover {
+  fill: rgb(134, 27, 27);
+}
